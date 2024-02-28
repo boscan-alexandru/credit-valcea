@@ -613,7 +613,7 @@ label.error {
 }
 
 .main-btn {
-  background-color: #0baa72;
+  background-color: #facc15;
   border-radius: 5px;
   border: 0 none;
   color: white;
@@ -625,7 +625,7 @@ label.error {
   text-shadow: none;
 }
 .main-btn:hover {
-  background-color: #0feb9e;
+  background-color: #d9b112;
   border-radius: 5px;
   border: 0 none;
   color: white;
@@ -744,4 +744,38 @@ label.error {
   position: fixed;
   right: 25px;
   z-index: 9;
+}
+.style-2 {
+  margin: 0;
+  padding-bottom: 20px;
+  position: relative;
+  /* padding-left: 40px; */
+  margin-top: 8px;
+  margin-bottom: 30px;
+  margin-left: -8px;
+  padding-bottom: 0;
+  width: fit-content;
+}
+.style-2::before {
+  position: absolute;
+  left: 9px;
+  top: 31px;
+  width: 2px;
+  height: 97%;
+  content: "";
+  background: #e8ecec;
+}
+
+.experience-item {
+  position: absolute;
+  left: 11px;
+  top: 3px;
+  width: 16px;
+  height: 16px;
+  content: "";
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
 }
