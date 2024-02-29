@@ -36,7 +36,7 @@ $(document).ready(function () {
       $(".navbar-brand svg").css("fill", "#fff");
       $("#navigation").css("background-color", "transparent");
       $("#navigation").css("box-shadow", "none");
-      $("#navigation a").css("color", "#fff");
+      $("#navigation a").css("color", "#facc15");
     }
   });
 

@@ -177,7 +177,7 @@ body > section,
 .navbar-nav li a:focus,
 .navbar-nav li a:hover {
   background-color: transparent;
-  border-top: 1px solid #32b0ee;
+  border-top: 1px solid #d9b112;
   color: #fff;
 }
 
@@ -563,49 +563,6 @@ body > section,
   line-height: 24px;
 }
 
-.contact-form {
-}
-.nigga {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 50px;
-}
-
-.contact-form h3 {
-  color: #062033;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 32px;
-  margin-bottom: 25px;
-}
-
-.contact-form .input-group {
-  width: 100%;
-}
-
-.contact-form .form-control {
-  border-color: -moz-use-text-color -moz-use-text-color #cccccc;
-  border-radius: 0;
-  border-style: none none solid;
-  border-width: 0 0 1px;
-  box-shadow: none;
-  margin-bottom: 10px;
-}
-
-.contact-form .input-field {
-  width: 48%;
-  float: left;
-  margin-right: 4%;
-}
-
-.contact-form .input-field:last-child {
-  margin-right: 0;
-}
-
-.contact-form .form-control.error {
-  border-bottom-color: #c0392b;
-}
-
 label.error {
   color: #c0392b;
   font-weight: normal;
@@ -635,18 +592,6 @@ label.error {
   padding: 10px 50px;
   text-align: right;
   text-shadow: none;
-}
-.contact-form #form-submit {
-  /* background: url("../img/envelop.png") no-repeat scroll 0 15px transparent; */
-  background-color: #0feb9e;
-  border-radius: 5px;
-  border: 0 none;
-  color: white;
-  font-size: 16px;
-  line-height: 24px;
-  padding: 10px 50px;
-  text-align: right;
-  /* width: 150px; */
 }
 
 .footer-social {
